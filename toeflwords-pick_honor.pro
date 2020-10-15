@@ -45,6 +45,8 @@ FORMS += \
 TRANSLATIONS += \
     script/langpack_zh_CN.ts
 
+RC_ICONS += img/icon/icon_128.ico
+
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
